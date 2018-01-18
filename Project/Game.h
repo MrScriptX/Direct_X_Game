@@ -2,6 +2,7 @@
 
 #include "Window.h"
 #include "Renderer.h"
+#include "Triangle.h"
 
 
 class Game
@@ -13,7 +14,8 @@ public:
 	void run();
 
 private:
-	Window &m_window;
+	Window& m_window;
 	Renderer m_renderer;
+	Triangle m_triangle;
 };
 
