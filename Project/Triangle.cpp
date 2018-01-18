@@ -42,7 +42,7 @@ void Triangle::draw(Renderer & renderer)
 	UINT stride = sizeof(Vertex);//size between each vertex
 	UINT offset = 0;
 
-	renderer.getDeviceContext()->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_POINTLIST);
+	renderer.getDeviceContext()->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 	renderer.getDeviceContext()->IASetVertexBuffers(0, 1, &m_vertexBuffer, &stride, &offset);
 	renderer.getDeviceContext()->Draw(3, 0);
 }
