@@ -122,19 +122,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="Model.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Model.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Model.h" />
     <ClInclude Include="Renderer.h" />
-    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Model.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>

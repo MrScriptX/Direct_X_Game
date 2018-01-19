@@ -2,7 +2,7 @@
 
 #include "Window.h"
 #include "Renderer.h"
-#include "Triangle.h"
+#include "Model.h"
 
 
 class Game
@@ -16,6 +16,6 @@ public:
 private:
 	Window& m_window;
 	Renderer m_renderer;
-	Triangle m_triangle;
+	Model m_model;
 };
 

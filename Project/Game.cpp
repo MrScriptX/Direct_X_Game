@@ -2,7 +2,7 @@
 
 
 
-Game::Game(Window &mainWindow) : m_window(mainWindow), m_renderer(mainWindow), m_triangle(m_renderer)
+Game::Game(Window &mainWindow) : m_window(mainWindow), m_renderer(mainWindow), m_model(m_renderer)
 {
 
 }
@@ -16,7 +16,7 @@ void Game::run()
 {
 	m_renderer.beginFrame();
 
-	m_triangle.draw(m_renderer);
+	m_model.draw(m_renderer);
 
 	m_renderer.endFrame();
 }
