@@ -50,6 +50,8 @@ void Renderer::createDevice(Window & window)
 		nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, nullptr, 0,
 		D3D11_SDK_VERSION, &swapChainDesc, &m_swapChain, &m_device,
 		nullptr, &m_deviceContext);
+
+	
 }
 
 void Renderer::createRenderTarget()
