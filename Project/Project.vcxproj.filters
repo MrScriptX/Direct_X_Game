@@ -53,4 +53,9 @@
       <Filter>Fichiers de ressources</Filter>
     </FxCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cube.txt">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
