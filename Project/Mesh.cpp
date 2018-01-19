@@ -13,19 +13,20 @@ Mesh::~Mesh()
 	m_indexBuffer->Release();
 }
 
-void Mesh::setMesh(Vertex& mesh)
+void Mesh::setMesh(Vertex& mesh, unsigned long& indices)
 {
 	m_mesh = &mesh;//get the mesh
+	m_indices = &indices;
 }
 
 void Mesh::setIndexCount(int count)
 {
-
+	m_indexCount = count;
 }
 
 void Mesh::setVertexCount(int count)
 {
-
+	m_vertexCount = count;
 }
 
 void Mesh::InitBuffer()

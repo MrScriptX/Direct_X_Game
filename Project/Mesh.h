@@ -17,7 +17,7 @@ public:
 	Mesh(Renderer& renderer);
 	~Mesh();
 
-	void setMesh(Vertex& mesh);
+	void setMesh(Vertex& mesh, unsigned long& indices);
 	void setIndexCount(int count);
 	void setVertexCount(int count);
 
